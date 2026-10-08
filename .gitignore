@@ -16,3 +16,6 @@
 .env.*
 !.env.example
 /public/wikipedia.json
+
+# Fetched dummy data fixture (generated, not committed)
+/public/data/

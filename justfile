@@ -94,3 +94,8 @@ test:
 # Run all project quality gates.
 [group('quality')]
 verify: check lint format-source-check build
+
+# Pull the Wikipedia dummy data fixture.
+[group('data')]
+pull-wikipedia:
+    ./scripts/fetch-wikipedia-data.sh
